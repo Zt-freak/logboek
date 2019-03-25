@@ -27,42 +27,42 @@ class User extends BaseUser
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $mobile_nr = null;
+    private $mobile_nr;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $first_name = null;
+    private $first_name;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $insertion_name = null;
+    private $insertion_name;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $last_name = null;
+    private $last_name;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $address = null;
+    private $address;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $zip = null;
+    private $zip;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $city = null;
+    private $city;
 
     /**
      * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $country = null;
+    private $country;
 
     public function __construct()
     {
